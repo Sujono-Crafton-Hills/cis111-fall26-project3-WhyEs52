@@ -1,0 +1,70 @@
+:root{
+    --text-color: #261103;
+    --main-font: courier, monospace;
+}
+#banner{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: block;
+}
+
+header {
+    text-align: center;
+}
+
+html{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/067/337/640/non_2x/summer-countryside-meadow-with-vibrant-green-textures-free-photo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    font-family: var(--main-font);
+    color: var(--text-color);
+    font-family: var(--main-font);
+    color: var(--text-color);
+    
+}
+
+h1{
+    font-size: 70px;
+}
+
+nav{
+    text-align: center;
+    font-size: 40px;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: black;
+}
+
+#welcome-message{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+body{
+    text-align: center; 
+}
+
+nav a:hover{
+    color: #09ff00;
+}
+
+p {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+label[for="sort-select"] {
+    font-size: 30px;
+    font-weight: bold;
+
+}
