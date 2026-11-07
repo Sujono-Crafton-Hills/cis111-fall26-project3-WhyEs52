@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/lists.js" defer></script>
+    <title>Tree Website</title>
+</head>
+<body>
+    <!--nav will include links to all of the different webpages-->
+    <header>
+        <h1>Website about Trees</h1>
+    </header>
+    <nav>   
+        <a href="index.html">Home</a>
+        <a href="lists.html">Lists</a>
+        <a href="quiz.html">Tree Quiz</a>
+    </nav>
+    <main>
+        <h2>Top 5 Trees list</h2>
+        <p>Click the tree</p>
+
+        <label for="sort-select">Choose a tree:</label>
+        <select id="sort-select">
+            <option value="name">Name</option>
+            <option value="height">Height</option>
+        </select>
+        
+        <ul id="tree-list"></ul>
+        <p id="tree-fact">Select the tree to see the image</p>
+    </main>
+    <footer>
+        <h3>All images and content are property of their respective owners</h3>
+    </footer>
+</body>
+</html>
