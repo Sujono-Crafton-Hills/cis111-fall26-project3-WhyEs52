@@ -1,3 +1,5 @@
+//lists of trees with their names, heights, images
+
 let trees = [
     { name: "Baobab", height: 25, image: "https://images.takeshape.io/86ce9525-f5f2-4e97-81ba-54e8ce933da7/dev/f181815c-e8c4-4619-858b-dfc70a26338d/100-Adansonia_grandidieri-CC-Bernard%20Gagnon-2007.jpg" },
     { name: "Norfolk Island Pine", height: 60, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK2V9zMRswTeyj1S20KvPBxzsACZ4mFEMCPokLgkTOA7DDV8aFF5A7jxHlPkVAJH_qdmUD2QCNM8NEWYgd48Qt3F0RvsMcvVvleQFwJ0w&s=10" },
@@ -6,9 +8,10 @@ let trees = [
     { name: "Weeping Willow", height: 20, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_9aMP6lD733nUtFjA_mgEteH00hNYH4L034Al0OqCnxtnarTy7Dk7RDjnkE15KvvR2Psdn3wrH2l1LXn-fd_H2lbP7Bsjpl_5QQuLAog&s=10" }
 ];
 
-
 let treeList = document.getElementById("tree-list");
 let sortSelect = document.getElementById("sort-select");
+
+//displaying the trees on webpage
 
 function sortTrees() {
 treeList.innerHTML = "";
@@ -31,6 +34,7 @@ for (let i = 0; i < trees.length; i++) {
 }
 }
 
+//sorting the trees based on selected option
 sortSelect.addEventListener("change", function() {
     if (sortSelect.value === "name") {
         trees.sort(function(a, b) {

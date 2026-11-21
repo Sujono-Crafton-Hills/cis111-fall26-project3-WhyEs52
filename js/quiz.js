@@ -11,5 +11,5 @@ function checkAnswer() {
         quizResult.textContent = "Wrong";
     }
 }
-
+//check answer when the button is clicked
 checkButton.addEventListener("click", checkAnswer);
